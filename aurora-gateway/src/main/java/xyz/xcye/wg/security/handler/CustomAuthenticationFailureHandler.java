@@ -6,7 +6,7 @@ import org.springframework.security.web.server.WebFilterExchange;
 import org.springframework.security.web.server.authentication.ServerAuthenticationFailureHandler;
 import org.springframework.stereotype.Component;
 import reactor.core.publisher.Mono;
-import xyz.xcye.common.enums.ResponseStatusCodeEnum;
+import xyz.xcye.core.enums.ResponseStatusCodeEnum;
 import xyz.xcye.wg.util.SecurityResultHandler;
 
 /**

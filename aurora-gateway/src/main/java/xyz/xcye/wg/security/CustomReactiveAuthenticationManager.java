@@ -8,7 +8,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 import reactor.core.publisher.Mono;
-import xyz.xcye.common.enums.ResponseStatusCodeEnum;
+import xyz.xcye.core.enums.ResponseStatusCodeEnum;
 import xyz.xcye.wg.service.CustomUserDetailsService;
 
 /**

@@ -7,7 +7,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Component;
-import xyz.xcye.common.enums.ResponseStatusCodeEnum;
+import xyz.xcye.core.enums.ResponseStatusCodeEnum;
 import xyz.xcye.wg.dto.SecurityUserDTO;
 
 import java.util.ArrayList;

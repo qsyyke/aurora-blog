@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+xyz.xcye.mybatis.config.MybatisConfig,\
+xyz.xcye.mybatis.config.DataSourceAutoConfig,\
+xyz.xcye.mybatis.config.RedisAutoConfig

@@ -17,13 +17,13 @@
     </parent>
 
     <modules>
-        <module>aurora-file</module>
-        <module>aurora-comment</module>
-        <module>aurora-gateway</module>
         <module>aurora-admin</module>
-        <module>aurora-message</module>
+        <module>aurora-comment</module>
         <module>aurora-common</module>
-        <module>aurora-spring-boot-starter</module>
+        <module>aurora-file</module>
+        <module>aurora-gateway</module>
+        <module>aurora-message</module>
+        <module>aurora-starter</module>
     </modules>
 
     <properties>
@@ -42,7 +42,7 @@
         <spring-alibaba-cloud.version>2021.0.1.0</spring-alibaba-cloud.version>
         <hutool.version>5.7.22</hutool.version>
         <spring-cloud-gateway.version>3.1.1</spring-cloud-gateway.version>
-        <druid.version>1.2.6</druid.version>
+        <druid.version>1.2.8</druid.version>
         <springfox.version>3.0.0</springfox.version>
         <springfox-data-rest.version>3.0.0</springfox-data-rest.version>
         <fastjson.version>1.2.80</fastjson.version>
@@ -111,7 +111,7 @@
             <!--需要手动引入的数据访问相关依赖-->
             <dependency>
                 <groupId>com.alibaba</groupId>
-                <artifactId>druid</artifactId>
+                <artifactId>druid-spring-boot-starter</artifactId>
                 <version>${druid.version}</version>
             </dependency>
 

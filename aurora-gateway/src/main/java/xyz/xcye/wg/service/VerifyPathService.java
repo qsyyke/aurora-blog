@@ -1,7 +1,7 @@
 package xyz.xcye.wg.service;
 
 
-import xyz.xcye.common.entity.table.VerifyPathDO;
+import xyz.xcye.common.po.table.VerifyPathDO;
 
 import java.util.List;
 

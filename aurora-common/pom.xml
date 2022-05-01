@@ -9,7 +9,16 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <modules>
+        <module>admin-common</module>
+        <module>aurora-core</module>
+        <module>comment-common</module>
+        <module>file-common</module>
+        <module>message-common</module>
+    </modules>
+
     <artifactId>aurora-common</artifactId>
+    <packaging>pom</packaging>
 
     <dependencies>
         <dependency>

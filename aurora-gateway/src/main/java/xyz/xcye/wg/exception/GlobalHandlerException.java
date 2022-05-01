@@ -5,8 +5,8 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
-import xyz.xcye.common.entity.result.R;
-import xyz.xcye.common.enums.ResponseStatusCodeEnum;
+import xyz.xcye.core.entity.result.R;
+import xyz.xcye.core.enums.ResponseStatusCodeEnum;
 
 /**
  * 这是一个全局异常处理

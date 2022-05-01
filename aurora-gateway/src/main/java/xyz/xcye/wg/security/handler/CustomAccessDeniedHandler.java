@@ -5,7 +5,7 @@ import org.springframework.security.web.server.authorization.ServerAccessDeniedH
 import org.springframework.stereotype.Component;
 import org.springframework.web.server.ServerWebExchange;
 import reactor.core.publisher.Mono;
-import xyz.xcye.common.enums.ResponseStatusCodeEnum;
+import xyz.xcye.core.enums.ResponseStatusCodeEnum;
 import xyz.xcye.wg.util.SecurityResultHandler;
 
 
